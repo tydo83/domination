@@ -42,3 +42,7 @@ imageSizer(test2);
 const invisibleClass = (node) => {
     document.querySelector(node).className = 'invisible'
 }
+
+const fontSize(size, id) => {
+    document.querySelector(id).fontSize = size;
+} 
